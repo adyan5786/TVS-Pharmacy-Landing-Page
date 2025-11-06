@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.css">
+    <title>TVS Pharmacy</title>
+</head>
+
+<body>
+    <div id="splash">
+        <img src="assets/logo.png" alt="" class="logo">
+    </div>
+
+    <div class="content">
+        <header class="app-header">
+            <div class="container">
+                <a href="#">
+                    <img src="assets/logo.png" alt="" class="logo">
+                </a>
+                <input type="text" class="search" placeholder="Search...">
+            </div>
+        </header>
+
+        <div class="subheader">
+            <div>
+                <p>Now delivering Rx + more</p>
+                <a href="#">
+                    <p>Find out now<i class="fa fa-chevron-right"></i></p>
+                </a>
+            </div>
+            <img src="assets/delivery.png" alt="">
+        </div>
+
+        <div class="grid container">
+
+            <div class="item">
+                <h4>Pharmacy</h4>
+                <p>2Rxs ready for refill</p>
+                <img src="assets/medicine.png" alt="">
+            </div>
+
+            <div class="item">
+                <h4>Deals & Rewards</h4>
+                <p>2 Care Packs offers expiring</p>
+                <img src="assets/medal.png" alt="">
+            </div>
+
+            <div class="item">
+                <h4>Second Clinic</h4>
+                <p></p>
+                <img src="assets/nurse.png" alt="">
+            </div>
+
+            <div class="item">
+                <h4>Shop</h4>
+                <p>Free shipping on orders $25+</p>
+                <img src="assets/shop.png" alt="">
+            </div>
+
+            <div class="item">
+                <h4>Photo</h4>
+                <p></p>
+                <img src="assets/photo.png" alt="">
+            </div>
+
+            <div class="item">
+                <h4>Weekly Ad</h4>
+                <p>View your weekly ad</p>
+                <img src="assets/newspaper.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <ul>
+            <li>
+                <i class="fa fa-heart"></i>
+                    Home
+            </li>
+            <li>
+                <i class="fa fa-barcode"></i>
+                    Show Card
+            </li>
+            <li>
+                <i class="fa fa-user"></i>
+                    Account
+            </li>
+            <li>
+                <i class="fa fa-map-marker"></i>
+                    Find Store
+            </li>
+        </ul>
+    </footer>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('splash').classList.add('fade')
+        }, 2000);
+    </script>
+</body>
+
+</html>
