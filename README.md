@@ -1,6 +1,6 @@
 # TVS Pharmacy
 
-- A small clone of the CVS Health mobile app homepage UI built with HTML and CSS.
+A small clone of the CVS Health mobile app homepage UI built with HTML and CSS.
 
 ## Simple features
 
