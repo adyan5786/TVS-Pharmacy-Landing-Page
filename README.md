@@ -2,6 +2,8 @@
 
 A small clone of the CVS Health mobile app homepage UI built with HTML and CSS.
 
+[Click to view the website](https://adyan5786.github.io/TVS-Pharmacy-Landing-Page/)
+
 ## Features
 
 - **Top navigation / header:** A header with logo and primary navigation.
