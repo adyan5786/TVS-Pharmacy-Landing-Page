@@ -2,7 +2,7 @@
 
 A small clone of the CVS Health mobile app homepage UI built with HTML and CSS.
 
-## Simple features
+## Features
 
 - **Top navigation / header:** A header with logo and primary navigation.
 - **Search bar:** Input field for searching the app.
